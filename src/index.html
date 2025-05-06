@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Start Landing Page</title>
+  </head>
+  <body class="bg-custom-green">
+    <!-- Navbar -->
+    <header class="flex items-center justify-between px-6 py-4 md:px-16">
+      <div class="flex items-center space-x-2">
+        <img src="tailwindimgs/start.png" alt="Logo" class="h-8" />
+        <span class="text-white text-xl font-semibold">Start</span>
+      </div>
+      <nav class="hidden md:flex space-x-8 text-white font-medium">
+        <a href="#">Home</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </nav>
+      <!-- Mobile menu icon -->
+      <div class="md:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-6 text-white"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="flex flex-col-reverse md:flex-row items-center px-6 md:px-16 py-12 md:py-20">
+      <!-- Left text -->
+      <div class="w-full md:w-1/2 text-center md:text-left">
+        <p class="uppercase tracking-widest text-sm text-white font-semibold mb-2">Welcome</p>
+        <h1 class="text-3xl md:text-5xl font-bold text-white mb-4">
+          Lorem ipsum dolor sit amet consectetur
+        </h1>
+        <p class="text-white/90 text-base md:text-lg mb-6">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?
+        </p>
+        <a
+          href="#"
+          class="inline-block bg-white text-green-600 font-medium px-6 py-2 rounded shadow hover:bg-gray-100 transition"
+        >
+          Explore
+        </a>
+      </div>
+
+      <!-- Right image -->
+      <div class="w-full md:w-1/2 mb-10 md:mb-0">
+        <img src="tailwindimgs/vo1.png" alt="Hero Image" class="w-full max-w-md mx-auto" />
+      </div>
+    </main>
+  </body>
+</html>
